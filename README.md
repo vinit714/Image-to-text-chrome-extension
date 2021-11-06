@@ -33,5 +33,17 @@ Modules implementation and demo could be found in the ppt.
 pip install pytesseract
 ```
 
+### Flask
+```npm i flask```
+
+### Ajax jQuery
+The jQuery min file is attached with the files in case you want to change it or use cdn approach you can change it.
+
+## How to load unpack extension in the chrome
+1. Make sure Developer mode is enabled
+2. Click on the load unpacked button
+3. select the [Extension unpack](https://github.com/vinit714/Image-to-text-chrome-extension/tree/main/templates/Extension%20unpack) file to unpack
+
+
 
 
