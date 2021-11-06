@@ -42,7 +42,7 @@ The jQuery min file is attached with the files in case you want to change it or 
 ## How to load unpack extension in the chrome
 1. Make sure Developer mode is enabled
 2. Click on the load unpacked button
-3. select the [Extension unpack](https://github.com/vinit714/Image-to-text-chrome-extension/tree/main/templates/Extension%20unpack) file to unpack
+3. select the [Extension unpack](https://github.com/vinit714/Image-to-text-chrome-extension/tree/main/templates) file to unpack
 
 
 
