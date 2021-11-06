@@ -26,5 +26,10 @@ I do very often encounter code snippets on youtube or any other website, now whi
 
 Modules implementation and demo could be found in the ppt.
 
+## Installations required for the project
+
+### pytesseract
+'''pip install pytesseract'''
+
 
 
