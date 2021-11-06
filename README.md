@@ -24,7 +24,7 @@ I do very often encounter code snippets on youtube or any other website, now whi
 
 ![image](https://user-images.githubusercontent.com/52816788/140599129-6cb7a4c1-3ddb-493b-90b2-36a1e863e5b9.png)
 
-Modules implementation and demo could be found in the ppt.
+Modules implementation and demo could be found in the [ppt](https://github.com/vinit714/Image-to-text-chrome-extension/blob/main/templates/Module%20implementation%20and%20demo.pptx).
 
 ## Installations required for the project
 
