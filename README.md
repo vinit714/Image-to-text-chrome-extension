@@ -29,7 +29,8 @@ Modules implementation and demo could be found in the ppt.
 ## Installations required for the project
 
 ### pytesseract
-'''pip install pytesseract'''
+'''pip install pytesseract
+'''
 
 
 
