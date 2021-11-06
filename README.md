@@ -34,7 +34,9 @@ pip install pytesseract
 ```
 
 ### Flask
-```npm i flask```
+```
+npm i flask
+```
 
 ### Ajax jQuery
 The jQuery min file is attached with the files in case you want to change it or use cdn approach you can change it.
