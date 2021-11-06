@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="button.css">
+
+
+    <style>
+        img {
+            position: relative;
+            left: 0px;
+            top: 0px;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            /* Safari */
+            -webkit-user-select: none;
+            /* IE 10 and IE 11 */
+            -ms-user-select: none;
+            user-select: none;
+            z-index: -1;
+        }
+        
+        canvas {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            pointer-events: none;
+        }
+        
+        p {
+            font-size: large;
+        }
+        
+        #container {
+            width: 1180;
+            height: 580;
+            /*border: solid 5px red;*/
+            left: 0px;
+            top: 0px;
+            overflow: hidden;
+            background: url(NOBG.png);
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="container">
+        <img id="target" src="" style="width: 1180;" draggable="false">
+    </div>
+    <img id="tc" src="TRANS.png" style="display: none;">
+    <img id="default" src="default.png" style="position: absolute; left: 0px; top:650px;">
+
+
+    <form id="uploadform">
+        <input type="text" id="gg" name="gg" style="display: none;">
+    </form>
+    <div style="position: absolute; right: 10px; top:800px;">
+        <button id="submit" type="button" style="height: 70px;width: 300px;">Convert</button></div>
+
+
+    <p id="finaltext" style="display: none;">Final Text</p>
+
+    <canvas id="myCanvas" width="1180" height="580" style="border: 10px solid red;">
+    </canvas>
+
+    <canvas id="myCanvas2" width="1180" height="580" style="position: absolute; left: 0px; top:650px;">
+    </canvas>
+
+    <canvas id="myCanvas3" width="1180" height="580" style="position: absolute; left: 0px; top:650px;">
+    </canvas>
+
+
+
+
+
+    <div style="position:absolute; right:10px; top:10px;">
+        <button id="crop" type="button" style="height: 70px;width: 300px;">Crop</button>
+        <p>To select crop area click and hold<br> while selecting the crop area<br>After selecting CROP area press the <br> crop button</p>
+    </div>
+
+
+    <div style="position:absolute; right:10px; top:650px;">
+        <button id="th" type="button" style="height: 70px;width: 300px;">Threshold</button></div>
+
+
+    <label for="threshold_value" style="position: absolute; right: 100px; top:730px;">Threshold Value (between 0 and 255):</label>
+    <input type="number" id="thv" name="threshold_value" style="position: absolute; right: 10px; top:730px;" value="70" min="0" max="255">
+
+
+
+
+</body>
+<script src="screenshot.js"></script>
+<script src="pre-process.js"></script>
+
+
+</html>

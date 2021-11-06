@@ -1,0 +1,1 @@
+Here image data is converted to its base64 format!!

@@ -1,0 +1,12 @@
+button {
+    background-color: blue;
+    font-size: xx-large;
+    color: white;
+    transition-duration: 0.4s;
+    border: 2px solid blue;
+}
+
+button:hover {
+    background-color: white;
+    color: blue;
+}
