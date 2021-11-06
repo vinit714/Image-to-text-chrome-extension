@@ -16,3 +16,15 @@ pytesseract (Python version of Tesseract) so it can convert it. At the end
 get the text and download it in .txt file format. So the user can open it
 in notepad or any other text editor and compare and modify the text if
 needed.
+
+## Motivation behind the project
+I do very often encounter code snippets on youtube or any other website, now while I greatly appreciate the effort tutorial makers put into their videos every time I encounter a piece of code which does not provide a link to download or copy it. So to get codes from those video I made this project with the help of tesseract plugin so I can extract text from those videos or images.
+
+## ARCHITECTURE DIAGRAM
+
+![image](https://user-images.githubusercontent.com/52816788/140599129-6cb7a4c1-3ddb-493b-90b2-36a1e863e5b9.png)
+
+Modules implementation and demo could be found in the ppt.
+
+
+
